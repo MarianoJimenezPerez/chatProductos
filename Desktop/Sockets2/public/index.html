@@ -8,10 +8,13 @@
     <title>Sockets</title>
 </head>
 <body>
-    <form action="" method="POST"></form>
     <h1>Bienvenido al chat</h1>
-    <input type="text" id="chat">
-    <button id="boton-enviar" type="submit">Enviar</button>
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre" required="true">
+        <input type="email" id="mail-cliente" name="mail" placeholder="Email" required="true">
+        <input type="text" id="chat">
+        <button id="boton-enviar" type="submit">Enviar</button>
+    </form>   
     <p id="chat-history"></p>
     <script src="js/chat.js"></script>
 </body>
